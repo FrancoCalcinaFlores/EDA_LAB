@@ -4,6 +4,7 @@ public class Ejercicio1 {
     public static void main(String []args){
 
         int n[]={1,5,6,9,4,8};
+        Mostrar(invertirArray(n));
 
 
     }
@@ -17,7 +18,7 @@ public class Ejercicio1 {
         return nuevaM;
 
     }
-    public static void Elementos(int []array){
+    public static void Mostrar(int []array){
         for (int i=0;i<array.length;i++){
             System.out.print(array[i]+" ");
         }
